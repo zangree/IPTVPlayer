@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="bupt.edu.cn.iptvplayer.SearchFileActivity">
+    <item
+        android:title="@string/action_settings"
+        android:id="@+id/action_settings"
+        android:orderInCategory="100" />
+</menu>

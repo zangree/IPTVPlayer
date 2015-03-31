@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">IPTVPlayer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="button_refresh_channels">Refresh Channels</string>
+    <string name="button_open_local_video">Player Video from Local File</string>
+
+    <string name="title_activity_main">IPTV Player</string>
+    <string name="title_activity_search_file">SearchFileActivity</string>
+</resources>

@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="bupt.edu.cn.iptvplayer.MainActivity"
+    android:clickable="false">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_refresh_channels"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:shadowColor="#f0f"
+            android:shadowRadius="1"
+            android:onClick="refresh"
+            android:clickable="true" />
+
+        <Button
+            android:id="@+id/localFile"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/button_open_local_video"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:shadowColor="#f0f"
+            android:shadowRadius="1"
+            android:clickable="true"
+            android:onClick="searchFile" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/tvListView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="#f00"
+        android:dividerHeight="2dp"
+        android:headerDividersEnabled="false"
+     />
+</LinearLayout>
